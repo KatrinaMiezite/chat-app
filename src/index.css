@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pinkLetter {
+  color: #ffa6c9;
+  font-size: 3rem;
+}
