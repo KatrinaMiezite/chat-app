@@ -16,3 +16,11 @@ code {
   color: #ffa6c9;
   font-size: 3rem;
 }
+
+ul{
+  list-style-position:inside;
+}
+
+
+
+
