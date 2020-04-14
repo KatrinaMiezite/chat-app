@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(56, 56, 56);
 }
 
 code {
@@ -19,6 +20,29 @@ code {
 
 ul{
   list-style-position:inside;
+}
+
+.main-nav {
+  text-align:right;
+  margin-bottom: 50px;
+  padding: 0 25px;
+  background-color: dimgray;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  color: deepskyblue;
+  text-decoration: underline;
+}
+
+.main-nav a {
+  display: inline-block;
+  padding: 25px 25px;
 }
 
 
