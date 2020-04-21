@@ -2,3 +2,31 @@
     padding-left: 15px;
     color: white;
 }
+
+input {
+   display: block; 
+   
+}
+
+label {
+    margin-top: 2vw;
+    display: block;
+    color: white;
+}
+
+.auth-container{
+    margin-left: 2vw;
+}
+
+.submit {
+    width: 13vw;
+    margin-top: 2vw;
+}
+
+p {
+    color: gray;
+}
+
+h1 {
+    color: white;
+}
