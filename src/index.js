@@ -7,6 +7,9 @@ import Login from './components/Login';
 import Register from './components/Register';
 import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
+import Button from '@material-ui/core/Button';
+import Container from '@material-ui/core/Container';
+
 
 class AppRouter extends React.Component {
   constructor(props) {
@@ -29,12 +32,15 @@ class AppRouter extends React.Component {
   render() {
     return (
       <Router>
+        
+<Container maxWidth='false' style={{ backgroundColor: 'rgb(56, 56, 56)' }}>
         <div className="nav">
           <nav className="main-nav"> 
           {!this.state.user &&
           <div>
-            <Link to="/login">Login</Link>
-            <Link to="/register">Register</Link>
+            <Button variant="outlined" color="primary"><Link to="/login">Login</Link></Button>
+            <Button variant="outlined" color="primary"><Link to="/register">Register</Link></Button>
+           
             </div>
           }
           {this.state.user &&
@@ -48,6 +54,7 @@ class AppRouter extends React.Component {
         <Route path="/register" exact component = {Register}/>
       </Switch>
         </div>
+        </Container>
       </Router>
 
      

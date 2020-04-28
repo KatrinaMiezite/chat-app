@@ -1,4 +1,17 @@
 .loginContainer {
     padding-left: 15px;
     color: white;
+    
+}
+
+button.MuiButton-containedPrimary, button.MuiButton-outlinedPrimary {
+    margin: 10px 10px 10px 0;
+  }
+
+  button.MuiButton-containedPrimary a:hover, button.MuiButton-outlinedPrimary a:hover {
+    text-decoration: none;
+  }
+
+  .MuiFilledInput-input {
+    padding: 30px 12px 10px !important;
 }
