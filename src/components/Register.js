@@ -82,7 +82,7 @@ class Register extends React.Component {
                 
             /></TextField>
             </Grid>
-            <Button variant="contained" color="primary" className="submit">Get started</Button>
+            <Button variant="contained" type="submit" color="primary" className="submit">Get started</Button>
             <p>Already have an account? <Link className="login-btn" to="/login">Login here</Link></p>
         </form>
 
